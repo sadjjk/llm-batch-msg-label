@@ -1,0 +1,58 @@
+{
+  "file": {
+    "output_dir": "output",
+    "result_dir": "",
+    "result_file": "",
+    "log_dir": "logs",
+    "primary_key": "token_id",
+    "message_column": "dialogue_content",
+    "message_time_format": "timestamp_ms",
+    "message_time_sep": ":",
+    "message_multi_sep": "$$$"
+  },
+  "model": {
+    "base_url": "",
+    "api_key": "",
+    "model_id": "",
+    "model_timeout": 1200,
+    "max_retries": 3,
+    "max_tokens": 50000
+  },
+  "prompt": {
+    "prompt_template_path": "prompts/prompt_template_format.md"
+  },
+  "label": {
+    "files": [
+    ]
+  },
+  "processing": {
+    "batch_size": 300,
+    "batch_size_split": 5,
+    "batch_label": 2,
+    "dry_run": false
+  },
+  "db": {
+    "host": "",
+    "port": 19030,
+    "username": "",
+    "password": "",
+    "database": "",
+    "table": "",
+    "date_field": "",
+    "date_format": "yyyyMMdd",
+    "table_output_dir": "data",
+    "result_table": "",
+    "s3": {
+      "oss_mount_path": "",
+      "bucket_path": "",
+      "access_key": "",
+      "secret_key": "",
+      "region": "",
+      "endpoint": ""
+    }
+  },
+  "notify": {
+    "wecom_webhook_key": "",
+    "title": "批量打标"
+  }
+}

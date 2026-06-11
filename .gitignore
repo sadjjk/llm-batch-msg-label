@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.agent-undo
+config_product.json
+logs/
+output/
+data/
+test/
+
+# labels 目录：只保留举例.md
+labels/*.md
+!labels/举例.md
