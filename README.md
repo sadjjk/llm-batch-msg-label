@@ -2,7 +2,7 @@
 
 【标签定义 → Prompt 构造 → 并发调用 → 鲁棒解析 → 断点续跑" 自动化流水线】
 
-![cover](imgs/cover.png)
+![cover](imgs/cover.jpg)
 
 ## 亮点
 
