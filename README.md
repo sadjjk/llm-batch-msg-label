@@ -2,6 +2,8 @@
 
 【标签定义 → Prompt 构造 → 并发调用 → 鲁棒解析 → 断点续跑" 自动化流水线】
 
+![cover](imgs/cover.png)
+
 ## 亮点
 
 - **断点续跑** — 标签级进度 + 配置快照，中断后自动续跑，配置变更时警告
@@ -323,7 +325,7 @@ python main.py \
 ```
 output/
 ├── progress.json                    # 进度文件（断点续跑依据）
-└── {数据文件stem}_{文件大小}/       # file_key，由数据文件（非 label 文件）的文件名+大小生成
+└── {数据文件名}_{文件大小}/           # file_key，由数据文件的文件名+大小生成
     ├── 举例/                        # label md 文件名（非标签名）
     │   ├── result.jsonl             # 打标结果
     │   ├── parse_errors.jsonl       # 解析失败的响应
