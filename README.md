@@ -140,7 +140,6 @@ python main.py --data_file data/test.parquet \
 
 目前仅支持 StarRocks，如需适配其他数据库请自行扩展 `scripts/db_manager.py`。
 
-本地 parquet 已存在时自动跳过 DB 查询（断点续跑场景），如需强制重拉请删除本地文件。
 
 
 ## 最终 Prompt
